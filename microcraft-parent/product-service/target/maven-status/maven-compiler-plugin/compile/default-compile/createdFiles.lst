@@ -1,0 +1,10 @@
+com/microcraft/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/microcraft/productservice/controller/ProductController.class
+com/microcraft/productservice/dto/ProductRequest.class
+com/microcraft/productservice/dto/ProductResponse.class
+com/microcraft/productservice/model/Product$ProductBuilder.class
+com/microcraft/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/microcraft/productservice/repository/ProductRepository.class
+com/microcraft/productservice/ProductServiceApplication.class
+com/microcraft/productservice/model/Product.class
+com/microcraft/productservice/service/ProductService.class

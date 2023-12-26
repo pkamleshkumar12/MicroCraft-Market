@@ -1,0 +1,5 @@
+com/microcraft/inventoryservice/repository/InventoryRepository.class
+com/microcraft/inventoryservice/controller/InventoryController.class
+com/microcraft/inventoryservice/service/InventoryService.class
+com/microcraft/inventoryservice/model/Inventory.class
+com/microcraft/inventoryservice/InventoryServiceApplication.class
