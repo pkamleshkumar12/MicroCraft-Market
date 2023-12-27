@@ -1,8 +1,11 @@
+com/microcraft/orderservice/config/WebClientConfig.class
 com/microcraft/orderservice/model/OrderLineItems.class
+com/microcraft/orderservice/dto/InventoryResponse.class
 com/microcraft/orderservice/dto/OrderRequest.class
 com/microcraft/orderservice/repository/OrderRepository.class
 com/microcraft/orderservice/controller/OrderController.class
 com/microcraft/orderservice/OrderServiceApplication.class
+com/microcraft/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
 com/microcraft/orderservice/dto/OrderLineItemsDto.class
 com/microcraft/orderservice/model/Order.class
 com/microcraft/orderservice/service/OrderService.class

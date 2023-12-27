@@ -23,8 +23,8 @@ import static java.util.Arrays.stream;
 public class OrderService {
 
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
-    private final String INVENTORY_SERVICE_URL= "http://localhost:8082/api/inventories";
+    private final WebClient.Builder webClientBuilder;
+    private final String INVENTORY_SERVICE_URL= "http://inventory-service/api/inventories";
 
     public void placeOrder(OrderRequest orderRequest){
         Order order = new Order();
@@ -45,7 +45,7 @@ public class OrderService {
                 .stream()
                 .map(OrderLineItems::getSkuCode)
                 .toList();
-        InventoryResponse[] inventoryResponseArray = webClient.get()
+        InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
                 .uri(INVENTORY_SERVICE_URL,
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes)
                                 .build())
